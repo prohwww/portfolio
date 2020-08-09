@@ -9,21 +9,27 @@
 	<script src="js/jquery-1.12.4.js"></script>
     <script src="js/jquery-ui.js"></script>
     <style>
+        html{
+            /* #302c2b 7a6f6d */
+            background-color: #302c2b;
 
+        }
         #wrapper {
-            /* background-color: cornflowerblue; */
+            background-color: #302c2b;
         }
         #header {
             width: 100%;
             height: 300px;
+
         }
         #photo {
             width: 130px;
             height: 130px;
-            border: 1px solid rgba(114, 114, 114, 0.466);
+            border: 1px solid #ccc;
             border-radius: 50%;
             margin: 0 auto;
             margin-top: 50px;
+
         }
         #info {
             width: 400px;
@@ -36,18 +42,19 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             width: 80%;
-            height: 1500px;
+            height:2000px;
             margin: 0 auto;
             margin-bottom: 200px;
+            background-color: #f0efea;
         }
         #menu {
-            width: 100%;
+            width: 80%;
             height: 50px;
             background-color: #ccc;
             text-align: center;
             padding-top: 15px;
-            /* position: fixed; */
-
+            position: absolute;
+            top: 350px;
         }
         #menu a {
             margin: 20px;
@@ -58,8 +65,18 @@
         .content {
             width: 80%;
             height: 200px;
-            border-bottom: 2px dashed #ccc;
+            border-bottom: 1px solid #ccc;
             margin: 0 auto;
+        }
+        #about {
+            margin-top: 90px;
+            height: 200px;
+        }
+        .subline {
+            color: black;
+        }
+        #project {
+            height: 400px;
         }
 
     </style>
@@ -70,28 +87,40 @@
         <header id="header">
             <!-- 프로필 사진 + 간략 프로필 -->
             <div id="photo"></div>
-            <div id="info"></div>
+            <div id="info">
+                
+            </div>
         </header>
 
         <div id="box">
             <nav id="menu">
                 <a href="#about">About</a>
                 <a href="#project">Project</a>
-                <a href="#experience">Experience</a>
-                <a href="#education">Education</a>
                 <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
             </nav>
 
             <div id="about" class="content">
-                
+
+                <h2>About Me</h2>
+                <hr class="subline">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non rerum dolore sit voluptate? Beatae suscipit ipsam, ratione quos nulla ullam repellat, qui quasi ex laboriosam repellendus quae iure ipsum odit!
+                </p>
+
             </div>
 
             <div id="project" class="content">
-
+                <div id="pj1" class="pj">
+                    
+                </div>
+                <div id="pj2" class="pj"></div>
+                <div id="pj3" class="pj"></div>
+                <div id="pj4" class="pj"></div>
             </div>
 
-            <div id="experience" class="content">
+            <div id="skills" class="content">
 
             </div>
 
@@ -99,9 +128,7 @@
 
             </div>
 
-            <div id="skills" class="content">
-
-            </div>
+            
 
             <div id="contact" class="content">
 
