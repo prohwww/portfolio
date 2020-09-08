@@ -42,7 +42,7 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             width: 80%;
-            height:2000px;
+            height:2500px;
             margin: 0 auto;
             margin-bottom: 200px;
             background-color: #f0efea;
@@ -76,9 +76,71 @@
             color: black;
         }
         #project {
-            height: 400px;
+            height: 600px;
         }
 
+        .pj {
+            height: 550px;
+        }
+        .pj img{
+            width: 270px;
+            display: inline-block;
+        }
+        .pj img:nth-child(4){
+            height: 250px;
+        }
+
+        #imgF {
+            position: relative;
+            left: 550px;
+            top: -470px;
+        }
+        
+        #education{
+            height: 850px;
+        }
+        #education > div {
+            border: 1px solid #ccc;
+        }
+        .cbox {
+            margin: 10px auto;
+            width: 530px;
+            position: relative;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .date {
+            float: right;
+            font-size: 0.8em;
+            color: #666;
+        }
+        .subtxt {
+            font-size:1.2em;
+            color: #555;
+        }
+        .txt {
+            color: #666;
+            margin-left: 30px;
+        }
+
+        #sbox{
+            /* border: 1px solid black; */
+            width: 330px;
+            margin: 0 auto;
+            align-content: center;
+        }
+        #sbox > span {
+            font-weight: bold;
+        }
+        #sbox > img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        #skills{
+            height: 400px;
+        }
+        
     </style>
 </head>
 <body>
@@ -111,27 +173,133 @@
 
             </div>
 
-            <div id="project" class="content">
-                <div id="pj1" class="pj">
+ 
+            <div id="education" class="content">
+                <h2>Education</h2>
+                
+                <div id="ssangyong" class="cbox">
+                    <h3>쌍용교육센터 <span class="date">2020.04.07 ~ 2020.10.07</span></h3>
+                    <span class="subtxt">Java기반 멀티 플랫폼 응용 SW개발자 양성 과정</span>
                     
+                    <ul style="color: #666;">
+                        <li>객체지향 프로그래밍</li>
+                        <li>관계형 데이터베이스</li>
+                        <li>웹 클라이언트 프로그래밍</li>
+                        <li>웹 서버 프로그래밍</li>
+                        <li>실무 프로젝트 통합 구현</li>
+                    </ul>
+
                 </div>
-                <div id="pj2" class="pj"></div>
-                <div id="pj3" class="pj"></div>
-                <div id="pj4" class="pj"></div>
+                <div id="anyang" class="cbox">
+                    <h3>안양대학교 <span class="date">2015.03.02 ~ 2020.02.17</span></h3>
+                    <span class="subtxt">정보통신공학과</span>
+                    <br>
+                    <div style="display: inline-block;">
+                        <span class="txt">[전공과목]</span>
+                        <ul style="color: #666;">
+                            <li>정보통신</li>
+                            <li>프로그래밍 입문</li>
+                            <li>컴퓨터 프로그래밍</li>
+                            <li>반도체 공학</li>
+                            <li>운영체제실습</li>
+                            <li>전자자기학</li>
+                            <li>디지털 회로 설계</li>
+                            <li>회로이론</li>
+                            <li>자료구조</li>
+                            <li>회로망이론</li>
+                            <li>전자장</li>
+                            <li>신호 및 시스템</li>
+                            <li>전자회로</li>
+                            <li>인터넷 프로그래밍</li>
+                            <li>데이터베이스</li>
+                            <li>컴퓨터 네트워크</li>
+                            <li>자바 프로그래밍</li>
+                            <li>통신이론</li>
+                            <li>마이크로프로세서</li>
+                            <li>네트워크 프로젝트</li>
+                            <li>컴퓨터 구조 및 시스템</li>
+                            <li>캡스톤 디자인</li>
+                        </ul>
+                    </div>
+                    <div style="display: inline-block;">
+                        <span class="txt">[교양]</span>
+                        <ul style="color: #666;">
+                            <li>기독교의 이해</li>
+                            <li>대학 수학</li>
+                            <li>실용 영어</li>
+                            <li>컴퓨터 활용</li>
+                            <li>탈춤</li>
+                            <li>성서의 이해</li>
+                            <li>미적분학</li>
+                            <li>사고와 표현</li>
+                            <li>사회봉사</li>
+                            <li>영어회화</li>
+                            <li>진로탐색과 대학생활</li>
+                            <li>융복합기술창업론</li>
+                            <li>영화로 배우는 서양여성사</li>
+                            <li>여대생 커리어 역량 개발</li>
+                            <li>SNA를 활용한 공공 및 소셜 빅데이터의 이해와 활용</li>
+                            <li>청년기 갈등과 자기이해</li>
+                            <li>UCC기획, 제작, 편집 및 활용</li>
+                            <li>웰니스와 삶의 질</li>
+                            <li>성공 취업과 사회 진출</li>
+                            <li>자기설계 Thinking Design1</li>
+                            <li>행복한 금융생활</li>
+                            <li>정보기술(IT)발달과 영어의 확산으로 인한 글로벌화</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+
 
             <div id="skills" class="content">
+                <h2>Skills</h2>
+
+                <div id="sbox">
+                <!-- <span>Front-end</span> -->
+                <img src="images/html.png" style="width: 80px;">
+                <img src="images/css2.png" style="width: 80px;">
+                <img src="images/javascript.png" style="width: 80px;">
+                <br>
+                <!-- <span>Back-end</span> -->
+                <img src="images/java.png" style="width: 70px;">
+                <img src="images/c.png" style="width: 90px;">
+                <br>
+                <!-- <span>Database & Others</span> -->
+                <img src="images/DB.png">
+                <img src="images/android.png" style="width: 80px;">
+                </div>
 
             </div>
 
-            <div id="education" class="content">
 
+            <div id="project" class="content">
+                
+                <h2>Project</h2>
+
+                <div id="pj" class="pj">
+                     <!-- AtTicket -->
+                    <img src="https://user-images.githubusercontent.com/65211288/91652708-bb9fcd80-ead4-11ea-9264-3fae1e2d6e61.jpg">
+                    <!-- 쌍용교육센터 -->
+                    <img src="https://user-images.githubusercontent.com/65211288/84998018-3e79e300-b18a-11ea-957e-80b2acba867a.png">
+                    
+                    <br>
+                    <!-- 영화관 -->
+                    <img src="https://user-images.githubusercontent.com/55887059/92358558-9f2f1100-f124-11ea-8c0e-a48af09268d4.jpg">
+                    <!-- subway -->
+                    <img src="https://user-images.githubusercontent.com/55887059/89888053-4c883500-dc0a-11ea-9508-3da0aa5b8fbc.png">
+                    
+                    <!-- faceLock -->
+                    <img id="imgF" src="https://user-images.githubusercontent.com/55887059/92463836-4f754600-f207-11ea-8d8e-91e1a6e4c64d.png">
             </div>
 
-            
 
             <div id="contact" class="content">
-
+                <h2>Contact Me</h2>
+                <hr class="subline">
+                <p><span>Email</span> isk03214@gmail.com</p>
+                <p><span>Github</span> <a href="https://github.com/prohwww">https://github.com/prohwww</a></p>
             </div>
 
         </div>
